@@ -1,0 +1,19 @@
+box: ruby
+build:
+  steps:
+    - bundle-install
+    - script:
+      name: generate site
+      code: bundle exec jekyll build --trace
+deploy:
+  steps:
+    - wercker/add-ssh-key:
+      keyname: SSH_KEY
+    - add-to-known_hosts:
+      hostname: $REMOTE_HOST
+    - install-packages:
+      packages: rsync
+    - script:
+      name: rsync _site to production server
+      code: |
+        rsync -avz -e ssh _site/ $REMOTE_USER@$REMOTE_HOST:~/blog/
