@@ -1,15 +1,16 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Not rude but honest
 locale:           en_US
 url:
 
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: pygments
+permalink:         /:year/:month/:title/
+markdown:          kramdown
+highlighter:       pygments
+excerpt_separator: ""
 sass:
   sass_dir: _sass
   style: compressed
@@ -23,39 +24,34 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
-
 # Site owner
 owner:
-  name: Your Name
+  name: Corinna and Robert
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  codepen: #username
+  bio: "TODO: Describe your self."
+
+author_names:
+  - corinna
+  - robert
+
+authors:
+  corinna:
+    name: Corinna Wiesner
+    avatar: bio-photo.jpg
+    bio: "TODO: Describe your self."
+    twitter: walkertowski
+    github: corinnawiesner
+    linkedin: corinnawiesner
+    xing: Corinna_Wiesner4
+  robert:
+    name: Robert Gogolok
+    avatar: bio-photo.jpg
+    bio: "TODO: Describe your self."
+    twitter: gogolok
+    github: gogolok
+    linkedin: robertgogolok
+    xing: Robert_Gogolok
+
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
