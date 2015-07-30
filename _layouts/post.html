@@ -39,13 +39,23 @@
       {% else %}
         <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
       {% endif %}
+      <p class="byline">
+        Published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y/%m/%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by
+        {% for page_author in page.authors %}
+          {% assign post_author = site.authors[page_author] %}
+          {{ post_author.name }}
+          {% if page.authors.last != page_author %}
+            and
+          {% endif %}
+        {% endfor %}
+      </p>
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
       {{ content }}
       <hr />
       <footer role="contentinfo">
+        TODO: add tags
         {% if page.share != false %}{% include _social-share.html %}{% endif %}
-        <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
       </footer>
     </div><!-- /.article-wrap -->
   {% if site.owner.disqus-shortname and page.comments == true %}
