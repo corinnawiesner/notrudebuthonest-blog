@@ -16,4 +16,4 @@ deploy:
     - script:
       name: rsync _site to production server
       code: |
-        rsync -avz -e ssh _site/ $REMOTE_USER@$REMOTE_HOST:~/blog/
+        rsync -avz --delete -e ssh _site/ $REMOTE_USER@$REMOTE_HOST:~/blog/
