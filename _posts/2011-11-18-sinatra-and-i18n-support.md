@@ -3,7 +3,7 @@ layout: post
 title: "Sinatra and i18n support"
 authors:
   - robert
-excerpt: ""
+excerpt: "Sample sinatra app with i18n support"
 tags: [i18n, ruby, sinatra]
 ---
 

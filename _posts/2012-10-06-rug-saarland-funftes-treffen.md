@@ -3,6 +3,7 @@ layout: post
 title: "RUG Saarland: Fünftes Treffen"
 authors:
   - robert
+excerpt: "Zusammenfassung"
 tags: [meetup]
 ---
 

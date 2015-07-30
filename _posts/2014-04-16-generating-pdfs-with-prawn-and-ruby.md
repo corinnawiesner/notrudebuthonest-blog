@@ -3,7 +3,7 @@ layout: post
 title: "Generating PDF’s with Prawn and Ruby"
 authors:
   - robert
-excerpt: ""
+excerpt: "Anynines guest post how to generate PDFs with Prawn and Ruby."
 tags: [pdf, ruby]
 ---
 

@@ -4,7 +4,7 @@ title: "FreeBSD 9.1 Upgrade"
 authors:
   - robert
 modified:
-excerpt: ""
+excerpt: "Upgraded all my servers to FreeBSD 9.1."
 tags: [freebsd]
 ---
 

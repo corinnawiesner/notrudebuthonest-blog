@@ -3,7 +3,7 @@ layout: post
 title: "Today App Extension Experiments on iOS 8"
 authors:
   - robert
-excerpt: ""
+excerpt: "First review"
 tags: [ios]
 ---
 

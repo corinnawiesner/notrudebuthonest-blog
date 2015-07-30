@@ -4,7 +4,7 @@ title: "Sinatra: How to Include ActiveSupport"
 authors:
   - robert
 modified: 2014-08-15
-excerpt: "Include ActiveSupport in a Gemfile."
+excerpt: "Include ActiveSupport in Sinatra."
 tags: [ruby, sinatra]
 ---
 

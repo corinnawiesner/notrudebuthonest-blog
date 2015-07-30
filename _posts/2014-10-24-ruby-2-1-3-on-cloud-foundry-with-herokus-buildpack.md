@@ -4,7 +4,7 @@ title: "Ruby 2.1.3 and newer on Cloud Foundry with Heroku’s Buildpack"
 authors:
   - robert
 modified: 2014-12-26
-excerpt: ""
+excerpt: "Learn how to deploy Ruby 2.x apps on Anynines."
 tags: [anynines, cloudfoundry, deployment, ruby]
 ---
 

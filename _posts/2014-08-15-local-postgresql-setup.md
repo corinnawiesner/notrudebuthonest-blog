@@ -3,7 +3,7 @@ layout: post
 title: "Local PostgreSQL Setup"
 authors:
   - robert
-excerpt: ""
+excerpt: "How to setup PostgreSQL on Mac OS X."
 tags: [postgresql]
 ---
 

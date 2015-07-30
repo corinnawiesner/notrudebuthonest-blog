@@ -3,7 +3,7 @@ layout: post
 title: "RUG Saarland: Achtes Treffen"
 authors:
   - robert
-excerpt: ""
+excerpt: "Ich habe einen Vortrag über das kommende Rails 4.0 Release gehalten."
 tags: [meetup]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Deploy static HTML page on Cloud Foundry"
 authors:
   - robert
-excerpt: ""
+excerpt: "Use staticfile buildpack to deploy static HTML pages on Anynines."
 tags: [anynines, cloudfoundry]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Deploy static site powered by Hugo on Cloud Foundry"
 authors:
   - robert
-excerpt: ""
+excerpt: "Step by step introduction to Hugo on Cloud Foundry."
 tags: [cloudfoundry, golang, hugo]
 ---
 

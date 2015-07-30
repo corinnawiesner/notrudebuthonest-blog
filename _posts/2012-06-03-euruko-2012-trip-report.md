@@ -3,7 +3,7 @@ layout: post
 title: "Euruko 2012 Trip Report"
 authors:
   - robert
-excerpt: ""
+excerpt: "I've attended Euruko 2012 in Amsterdam."
 tags: [conference]
 ---
 

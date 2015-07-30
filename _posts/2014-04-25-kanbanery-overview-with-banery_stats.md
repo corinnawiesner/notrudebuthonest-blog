@@ -4,7 +4,7 @@ title: "Kanbanery overview with banery_stats"
 authors:
   - robert
 modified:
-excerpt: ""
+excerpt: "Kanbanery API sample code."
 tags: [gem, ruby]
 ---
 

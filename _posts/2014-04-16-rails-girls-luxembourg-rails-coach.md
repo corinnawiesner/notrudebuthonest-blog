@@ -3,7 +3,7 @@ layout: post
 title: "Rails Girls Luxembourg: Rails Coach"
 authors:
   - robert
-excerpt: ""
+excerpt: "Helping Rails Girls Luxembourg out."
 tags: []
 ---
 

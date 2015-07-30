@@ -3,7 +3,7 @@ layout: post
 title: "RailsWayCon 2012: Mobile Backends in Ruby on Rails"
 authors:
   - robert
-excerpt: ""
+excerpt: "Talk"
 tags: [conference, rails]
 ---
 
