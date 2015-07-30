@@ -1,10 +1,13 @@
 ---
 layout: {{ layout }}
 title: {{ title }}
+authors:
 modified:
 categories: {{ dir }}
 excerpt:
 tags: []
 image:
   feature:
+  credit:
+  creditlink:
 ---
