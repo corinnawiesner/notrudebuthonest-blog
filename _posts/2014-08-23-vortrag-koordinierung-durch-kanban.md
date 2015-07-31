@@ -3,7 +3,7 @@ layout: post
 title: "Vortrag: Koordinierung durch Kanban"
 authors:
   - robert
-excerpt: "Folien zum Vortrag zur 'Koordinierung durch Kanban'"
+excerpt: "Folien zum Vortrag zur 'Koordinierung durch Kanban'."
 tags: [kanban, presentation]
 ---
 
