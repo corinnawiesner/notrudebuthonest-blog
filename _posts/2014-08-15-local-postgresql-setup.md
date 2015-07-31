@@ -5,6 +5,7 @@ authors:
   - robert
 excerpt: "How to setup PostgreSQL on Mac OS X."
 tags: [postgresql]
+comments: true
 ---
 
 **Shell configuration (~/.bashrc, ~/.zshrc, …)**

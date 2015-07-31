@@ -5,6 +5,7 @@ authors:
   - robert
 excerpt: "Step by step introduction to Hugo on Cloud Foundry."
 tags: [cloudfoundry, golang, hugo]
+comments: true
 ---
 
 <figure>

@@ -5,6 +5,7 @@ authors:
   - robert
 excerpt: "A sample global gitconfig with the most important options."
 tags: [git]
+comments: true
 ---
 
 Here’s a sample global gitconfig with the most important options:

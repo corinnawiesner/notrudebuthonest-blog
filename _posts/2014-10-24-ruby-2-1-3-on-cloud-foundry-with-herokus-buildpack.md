@@ -6,6 +6,7 @@ authors:
 modified: 2014-12-26
 excerpt: "Learn how to deploy Ruby 2.x apps on Anynines."
 tags: [anynines, cloudfoundry, deployment, ruby]
+comments: true
 ---
 
 If you’re using the [Heroku Buildpack](https://github.com/heroku/heroku-buildpack-ruby){:target="_blank"}on Cloud Foundry (or [Anynines](http://www.anynines.com/){:target="_blank"} or …) and want to use a stable Ruby version >= 2.1.3, cf push will fail downloading ruby version >= 2.1.3 during staging.

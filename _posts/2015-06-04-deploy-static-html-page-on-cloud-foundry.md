@@ -5,6 +5,7 @@ authors:
   - robert
 excerpt: "Use staticfile buildpack to deploy static HTML pages on Anynines."
 tags: [anynines, cloudfoundry]
+comments: true
 ---
 
 **Setup static HTML page**
