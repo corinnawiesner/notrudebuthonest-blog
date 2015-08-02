@@ -28,7 +28,7 @@ kramdown:
 owner:
   name: Corinna and Robert
   avatar: bio-photo.jpg
-  bio: "TODO: Describe your self."
+  bio: ""
   disqus-shortname: "notrudebuthonestcom"
 
 author_names:
@@ -39,7 +39,7 @@ authors:
   corinna:
     name: Corinna Wiesner
     avatar: bio-photo-corinna.jpg
-    bio: "TODO: Describe your self."
+    bio: ""
     twitter: walkertowski
     github: corinnawiesner
     linkedin: corinnawiesner
