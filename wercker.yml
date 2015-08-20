@@ -3,17 +3,17 @@ build:
   steps:
     - bundle-install
     - script:
-      name: generate site
-      code: bundle exec jekyll build --trace
+       name: generate site
+       code: bundle exec jekyll build --trace
 deploy:
   steps:
     - wercker/add-ssh-key:
-      keyname: SSH_KEY
+        keyname: SSH_KEY
     - add-to-known_hosts:
-      hostname: $REMOTE_HOST
+        hostname: $REMOTE_HOST
     - install-packages:
-      packages: rsync
+        packages: rsync
     - script:
-      name: rsync _site to production server
-      code: |
-        rsync -avz --delete -e ssh _site/ $REMOTE_USER@$REMOTE_HOST:~/blog/
+        name: rsync _site to production server
+        code: |
+          rsync -avz --delete -e ssh _site/ $REMOTE_USER@$REMOTE_HOST:~/blog/
