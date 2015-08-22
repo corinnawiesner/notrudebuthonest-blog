@@ -22,6 +22,8 @@ GEM
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
     jekyll-sitemap (0.10.0)
+    jekyll-tagging (1.0.1)
+      ruby-nuggets
     jekyll-watch (1.4.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.11.1)
@@ -32,6 +34,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
     multipart-post (2.0.0)
+    nuggets (1.0.0)
     octokit (4.2.0)
       sawyer (~> 0.6.0, >= 0.5.3)
     octopress (3.0.11)
@@ -54,6 +57,8 @@ GEM
     redcarpet (3.3.4)
     ref (2.0.0)
     rouge (1.11.1)
+    ruby-nuggets (1.0.0)
+      nuggets (= 1.0.0)
     safe_yaml (1.0.4)
     sass (3.4.22)
     sawyer (0.6.0)
@@ -73,6 +78,7 @@ DEPENDENCIES
   jekyll
   jekyll-gist
   jekyll-sitemap
+  jekyll-tagging
   octopress (~> 3.0.0)
   rouge
   therubyracer
