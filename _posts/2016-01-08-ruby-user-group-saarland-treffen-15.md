@@ -10,7 +10,7 @@ tags: [ruby, meetup]
 comments: true
 ---
 
-Nach einer Durststrecke von über einem Jahr fand wieder die Ruby User Group Saarland statt.
+Nach einer Durststrecke von über einem Jahr, fand wieder die Ruby User Group Saarland statt.
 Markus und Robert hatten sich dazu entschlossen, dem Treffen wieder einen kleinen Anschieb zu geben.
 Es waren auch schnell einige Teilnehmer gefunden. Über Vortragsvorschläge konnte man sich auch nicht beklagen.
 
