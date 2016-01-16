@@ -11,8 +11,9 @@ comments: true
 ---
 
 Nach einer Durststrecke von über einem Jahr, fand wieder die Ruby User Group Saarland statt.
-Markus und Robert hatten sich dazu entschlossen, dem Treffen wieder einen kleinen Anschieb zu geben.
-Es waren auch schnell einige Teilnehmer gefunden. Über Vortragsvorschläge konnte man sich auch nicht beklagen.
+Markus und Robert hatten sich dazu entschlossen, dem Treffen wieder Leben einzuhauchen.
+Es waren auch schnell einige Teilnehmer gefunden.
+Über Vortragsvorschläge konnte man sich auch nicht beklagen.
 
 <figure>
   <img src="/images/rug-saarland-treffen-15-participants.jpg">
