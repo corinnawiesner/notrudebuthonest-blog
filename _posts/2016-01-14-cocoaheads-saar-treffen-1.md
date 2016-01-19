@@ -9,7 +9,7 @@ tags: [apple, ios, cocoaheads]
 comments: true
 ---
 
-Zum ersten Mal fand ein Entwicklertreffen rund um das Thema iOS- und Mac-Entwicklung im Saarland statt.
+Zum ersten Mal fand am 14.01.2016 ein Entwicklertreffen rund um das Thema iOS- und Mac-Entwicklung im Saarland statt.
 <figure>
   <img src="/images/cocoaheads-saar-treffen-1.jpg">
 </figure>
