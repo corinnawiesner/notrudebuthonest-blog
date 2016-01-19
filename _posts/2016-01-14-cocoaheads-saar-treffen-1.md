@@ -15,7 +15,7 @@ Zum ersten Mal fand am 14.01.2016 ein Entwicklertreffen rund um das Thema iOS- u
 </figure>
 
 12 Personen fanden ihren Weg in den Coworing Space Ligature.
-Der Coworking Space [Ligatura](http://ligatura.co) in der Europaallee 27 in Saarbrücken stand uns Dank dem Sponsor [http://dajool.com](dajool.com) zur Verfügung.
+Der Coworking Space [Ligatura](http://ligatura.co) in der Europaallee 27 in Saarbrücken stand uns Dank dem Sponsor [dajool.com](http://dajool.com) zur Verfügung.
 
 <figure>
   <img src="/images/rug-saarland-treffen-15-ligatura.jpg">
