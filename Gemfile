@@ -5,5 +5,5 @@ gem 'jekyll-sitemap'
 gem 'octopress', '~> 3.0.0'
 gem 'therubyracer'
 
-gem 'pygments.rb' # syntax highlithing
+gem 'rouge' # syntax highlithing
 gem 'jekyll-gist'
