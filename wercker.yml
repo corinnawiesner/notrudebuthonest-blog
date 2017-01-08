@@ -1,19 +1,21 @@
 box: ruby
+
+steps:
+  - gogolok/step-cloud-foundry-deploy
+
 build:
   steps:
     - bundle-install
     - script:
        name: generate site
        code: bundle exec jekyll build --trace
+
 deploy:
   steps:
-    - wercker/add-ssh-key:
-        keyname: SSH_KEY
-    - add-to-known_hosts:
-        hostname: $REMOTE_HOST
-    - install-packages:
-        packages: rsync
-    - script:
-        name: rsync _site to production server
-        code: |
-          rsync -avz --delete -e ssh _site/ $REMOTE_USER@$REMOTE_HOST:~/blog/
+    - gogolok/step-cloud-foundry-deploy:
+      api: $CF_API
+      username: $CF_USER
+      password: $CF_PASS
+      organization: $CF_ORG
+      space: $CF_SPACE
+      appname: notrudebuthonest
