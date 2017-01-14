@@ -1,4 +1,4 @@
-# Not rude but honest
+# Not Rude But Honest
 
 http://notrudebuthonest.com/
 
