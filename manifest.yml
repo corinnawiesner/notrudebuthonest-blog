@@ -2,5 +2,6 @@
 applications:
 - name: notrudebuthonest
   memory: 64M
-  host: notrudebuthonestcom
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack
+  routes:
+  - route: "*.notrudebuthonest.com"
