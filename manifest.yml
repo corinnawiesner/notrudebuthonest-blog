@@ -1,6 +1,6 @@
 ---
 applications:
-- name: notrudebuthonest.com
+- name: notrudebuthonest
   memory: 64M
   host: notrudebuthonestcom
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack
