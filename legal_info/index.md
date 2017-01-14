@@ -8,8 +8,8 @@ layout: page
 
 {% highlight bash %}
 Robert Gogolok
-Jahnstr. 6a
-66386 St. Ingbert
+Mühlentalblick 9
+66583 Spiesen-Elversberg
 {% endhighlight %}
 
 ## Kontakt
