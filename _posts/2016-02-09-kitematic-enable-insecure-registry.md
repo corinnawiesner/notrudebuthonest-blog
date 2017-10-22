@@ -12,7 +12,7 @@ comments: true
 In order to use an insecure registry with [Kitematic](https://kitematic.com/), you can follow the steps below:
 
 
-* Login to the Kitematic box, e.g. double click in Virtualbox on the kitematic machine that is named 'default' by default :-)
+* Login to the Kitematic box, e.g. double click in VirtualBox on the kitematic machine that is named 'default' by default :-)
 * Edit the file `/var/lib/boot2docker/profile` and append to `EXTRA_ARGS` the `--insecure-registry` parameter:
 
 {% highlight sh %}
